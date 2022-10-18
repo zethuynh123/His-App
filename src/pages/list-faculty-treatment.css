@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,500&family=Roboto+Slab:wght@300;400;500;600;700;800&display=swap");
+.section-wrapper-treatment {
+  height: 100%;
+  width: 100%;
+  background-color: #ffffff;
+  padding: 15px;
+}
+.name-hospital {
+  font-family: "Inter";
+}
+.title-treatment {
+  height: 50px;
+  background-color: #118dd5;
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  display: flex;
+  justify-content: start;
+  padding: 12px 0 14px 10px;
+}
+.content-faculty {
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Inter";
+  line-height: 24px;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+  max-width: 201px;
+}
+
+.title-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 35px;
+  font-size: 20px;
+  background: linear-gradient(90deg, #72c6ef 0%, #004e8f 100%);
+  border-bottom: 1px solid #cdcdcd;
+  border-radius: 5px 5px 0px 0px;
+  width: 100%;
+}
+.text-content {
+  background: #ededed;
+  border-radius: 5px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #118dd5;
+  width: 100%;
+  text-align: center;
+}
+
+.wrapper-faculty {
+  padding-top: 18px;
+  padding-bottom: 15px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 60px;
+  row-gap: 22px;
+}
+.title-search {
+  font-family: "Inter";
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 10px;
+  height: 50px;
+  background: #118dd5;
+  outline: none;
+}
+.title-search span {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+}
+.input-wrapper {
+  display: flex;
+  height: 40px;
+  background-color: #ffffff;
+  padding: 10px 0 10px 21px;
+  max-width: 405px;
+  width: 100%;
+  border-radius: 5px;
+}
+.icon-input {
+}
+.input-search {
+  border: none;
+  outline: none;
+  color: rgba(0, 0, 0, 0.3);
+  width: 100%;
+  margin-left: 10px;
+}
+.input-search::placeholder {
+  color: rgba(0, 0, 0, 0.3);
+}
